@@ -1,0 +1,79 @@
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #543a68;
+  color: #f5cf73;
+  text-align: center;
+}
+
+.main-area {
+  background-image: url("./src/images/farm-fields.jpg");
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header {
+  margin-top: 0px;
+  background-color: #554b33;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.main-desc {
+  background-color: #554b33;
+  height: auto;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 0 30px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.activities-head {
+  margin-top: 50px;
+}
+
+.activities-area {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+
+.activities-box {
+  padding: 0 40px;
+}
+
+.activities-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.footer-img {
+  height: 500px;
+  background-color: beige;
+  margin-top: 200px;
+}
+
+.footer {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  background-color: #39343e;
+  margin: 100px auto;
+  padding: 10px 40px;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 10px solid #554b33;
+}
+
+.guide-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: auto 0;
+}
